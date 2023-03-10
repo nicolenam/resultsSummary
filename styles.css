@@ -65,7 +65,7 @@ main {
     right: 0;
 	margin: auto;
 	border-radius: 20px;
-	box-shadow: 10px 10px 30px 1px rgb(226, 227, 250);
+	box-shadow: 10px 20px 30px 1px rgb(232, 234, 253);
 	display: flex;
 }
 
