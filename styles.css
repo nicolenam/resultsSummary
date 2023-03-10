@@ -73,6 +73,7 @@ main {
 	font-size: 20px;
 	font-weight: 900;
 	opacity: .7;
+	margin: 20px 0;
 }
 
 .result {
@@ -86,15 +87,16 @@ main {
 	color: #fff;
 }
 
-.result div {
+.circle{
 	background-image: linear-gradient(blue ,purple);
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
-	margin: auto;
+	margin: 20px auto;
 }
 
 .summary {
+	width: 50%;
 	text-align: center;
 }
 
