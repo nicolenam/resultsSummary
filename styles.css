@@ -88,7 +88,7 @@ main {
 }
 
 .circle{
-	background-image: linear-gradient(blue ,purple);
+	background-image: linear-gradient(rgb(17, 53, 255) ,rgb(99, 99, 246));
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
@@ -96,6 +96,21 @@ main {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+.resultText{
+	font-size: 24px;
+	margin: 30px 0 10px;
+	font-weight: 500;
+}
+
+.resultExplained{
+	width: 50%;
+	margin: auto;
+	font-size: 12px;
+	line-height: 20px;
+	opacity: .7;
+	font-weight: 500;
 }
 
 .yourScore{
@@ -111,7 +126,7 @@ main {
 
 .summary {
 	width: 50%;
-	text-align: center;
+	text-align: left;
 }
 
 .summary p{
