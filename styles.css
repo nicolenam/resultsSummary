@@ -93,6 +93,9 @@ main {
 	height: 150px;
 	border-radius: 50%;
 	margin: 20px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .summary {
