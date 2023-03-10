@@ -135,7 +135,7 @@ main {
 	margin: auto;
 }
 
-.summary p{
+.summary{
 	color: #000;
 }
 
@@ -145,22 +145,38 @@ main {
 }
 
 .summary li:nth-child(1){
-	background-color: pink;
+	background-color: rgb(253, 207, 215);
+}
+.reaction {
+	color: #ff5555;
 }
 
 .summary li:nth-child(2){
-	background-color: orange;
+	background-color: rgb(251, 216, 150);
+}
+
+.memory{
+	color: #ffb72d;
 }
 
 .summary li:nth-child(3){
-	background-color: lightgreen;
+	background-color: rgb(177, 231, 177);
+}
+
+.verbal{
+	color: #00bb8f;
 }
 
 .summary li:nth-child(4){
-	background-color: lightblue;
+	background-color: rgb(195, 230, 242);
+}
+
+.visual{
+	color: #1125d6;
 }
 
 .summary div{
 	display: flex;
 	width: 200px;
 }
+
