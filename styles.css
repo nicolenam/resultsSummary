@@ -145,14 +145,14 @@ main {
 }
 
 .summary li:nth-child(1){
-	background-color: rgb(253, 207, 215);
+	background-color: rgba(253, 207, 215, 0.5);
 }
 .reaction {
 	color: #ff5555;
 }
 
 .summary li:nth-child(2){
-	background-color: rgb(251, 216, 150);
+	background-color: rgb(251, 216, 150, 0.5);
 }
 
 .memory{
@@ -160,7 +160,7 @@ main {
 }
 
 .summary li:nth-child(3){
-	background-color: rgb(177, 231, 177);
+	background-color: rgb(177, 231, 177, 0.5);
 }
 
 .verbal{
@@ -168,7 +168,7 @@ main {
 }
 
 .summary li:nth-child(4){
-	background-color: rgb(195, 230, 242);
+	background-color: rgb(195, 230, 242, 0.5);
 }
 
 .visual{
