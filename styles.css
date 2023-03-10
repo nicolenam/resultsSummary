@@ -69,9 +69,10 @@ main {
 	display: flex;
 }
 
-.mainTitle{
+.title{
 	font-size: 20px;
 	font-weight: 900;
+	opacity: .7;
 }
 
 .result {
@@ -81,7 +82,22 @@ main {
 	text-align: center;
 }
 
+.result p{
+	color: #fff;
+}
+
+.result div {
+	background-image: linear-gradient(blue ,purple);
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: auto;
+}
+
 .summary {
 	text-align: center;
 }
 
+.summary p{
+	color: #000;
+}
