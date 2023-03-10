@@ -129,10 +129,38 @@ main {
 }
 
 .summary {
-	width: 50%;
-	text-align: left;
+	background-color: #fff;
+	border-radius: 20px;
+	width: 40%;
+	margin: auto;
 }
 
 .summary p{
 	color: #000;
+}
+
+.summary li {
+	display: flex;
+	padding: 10px;
+}
+
+.summary li:nth-child(1){
+	background-color: pink;
+}
+
+.summary li:nth-child(2){
+	background-color: orange;
+}
+
+.summary li:nth-child(3){
+	background-color: lightgreen;
+}
+
+.summary li:nth-child(4){
+	background-color: lightblue;
+}
+
+.summary div{
+	display: flex;
+	width: 200px;
 }
