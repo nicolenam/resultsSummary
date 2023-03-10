@@ -98,6 +98,17 @@ main {
 	justify-content: center;
 }
 
+.yourScore{
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	margin: 5px 0;
+}
+
+.totalScore{
+	opacity: .7;
+}
+
 .summary {
 	width: 50%;
 	text-align: center;
