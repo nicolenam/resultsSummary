@@ -142,6 +142,8 @@ main {
 .summary li {
 	display: flex;
 	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
 }
 
 .summary li:nth-child(1){
@@ -179,4 +181,5 @@ main {
 	display: flex;
 	width: 200px;
 }
+
 
